@@ -52,11 +52,17 @@ function App() {
   }, [palette])
   return (
     <div>
-      <Routes>
+      {/* <Routes>
         <Route path='/' element={<PaletteList colors={palette} deletePalette={deletePalette} />} />
         <Route path='/palette/:paletteId/' element={<PaletteWrapper palette={palette} />} />
         <Route path='/palette/:paletteId/:colorId' element={<SingleColorPaletteWrapper palette={palette} />} />
         <Route path='/palette/new' element={<NewPalette savePalette={savePalette} palette={palette} />} />
+      </Routes> */}
+      <Routes>
+        <Route path='/React-Colors-Project/' element={<PaletteList colors={palette} deletePalette={deletePalette} />} />
+        <Route path='/React-Colors-Project/palette/:paletteId/' element={<PaletteWrapper palette={palette} />} />
+        <Route path='/React-Colors-Project/palette/:paletteId/:colorId' element={<SingleColorPaletteWrapper palette={palette} />} />
+        <Route path='/React-Colors-Project/palette/new' element={<NewPalette savePalette={savePalette} palette={palette} />} />
       </Routes>
     </div>
   );
