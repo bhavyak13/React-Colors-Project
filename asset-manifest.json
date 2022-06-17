@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/React-Colors-Project/static/css/main.073c9b0a.css",
+    "main.js": "/React-Colors-Project/static/js/main.1f5d9baf.js",
+    "static/media/bg.svg": "/React-Colors-Project/static/media/bg.c99d9e1b84c41f14d53fe9f4330ec652.svg",
+    "index.html": "/React-Colors-Project/index.html",
+    "main.073c9b0a.css.map": "/React-Colors-Project/static/css/main.073c9b0a.css.map",
+    "main.1f5d9baf.js.map": "/React-Colors-Project/static/js/main.1f5d9baf.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.073c9b0a.css",
+    "static/js/main.1f5d9baf.js"
+  ]
+}
