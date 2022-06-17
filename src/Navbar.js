@@ -11,7 +11,8 @@ function Navbar(props) {
     return (
         <header className={classes.Navbar}>
             <div className={classes.logo}>
-                <Link to='/'>ReactColorProject</Link>
+                {/* <Link to='/'>ReactColorProject</Link> */}
+                <Link to='/React-Colors-Project'>ReactColorProject</Link>
             </div>
             {props.isSliderVisible &&
                 (

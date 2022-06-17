@@ -43,7 +43,8 @@ const NewPaletteNavbar = (props) => {
             emoji:emojiObj.native,
         };
         props.savePalette(newPalette);
-        navigate('/');
+        // navigate('/');
+        navigate('/React-Colors-Project');
     }
 
 

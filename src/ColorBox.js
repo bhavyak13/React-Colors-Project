@@ -15,7 +15,8 @@ function ColorBox(props) {
         }
     }, [copied])
     const clickHandler = () => {
-        navigate(`/palette/${paletteId}/${colorId}`);
+        // navigate(`/palette/${paletteId}/${colorId}`);
+        navigate(`/React-Colors-Project/palette/${paletteId}/${colorId}`);
     }
     let obj = props;
     const classes = useStyles(obj);
